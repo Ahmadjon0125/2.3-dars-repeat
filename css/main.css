@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 40px;
+ 
+}
+
+.container {
+  width: 1240px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+img {
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  padding-bottom: 115px;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav__item {
+  margin-left: 70px;
+}
+
+.nav__item:nth-child(1) {
+  margin-left: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #373737;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.nav__link-active {
+  border: 2px solid #717CFF;
+  border-radius: 11px;
+  padding: 10px 33px;
+}
+
+/* -----------header qism tugadi------------ */
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+}
+
+.hero__left {
+  width: 632px;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 66px;
+  color: #2F2F2F;
+  margin-bottom: 24px;
+}
+
+.hero__span {
+  color: #717cff
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  color: #7D7D7D;
+  margin-bottom: 42px;
+}
+
+.hero__btn {
+  background: #717CFF;
+  border-radius: 11px;
+  padding: 12px 34px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-bottom: 104px;
+  border: 1px solid transparent;
+}
+
+.hero__list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.hero__item {
+  margin-right: 23px;
+}
